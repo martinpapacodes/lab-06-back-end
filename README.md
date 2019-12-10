@@ -27,10 +27,22 @@
 
 Number and name of feature: 1. Repository Set Up
 
-Estimate of time needed to complete: 30 mins
+Estimate of time needed to complete: 1 hour
 
 Start time: 0900
 
-Finish time: _____
+Finish time: 1000
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hour
+
+***
+
+Number and name of feature: 1. Repository Set Up
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 1000
+
+Finish time: 1000
+
+Actual time needed to complete: 1 hour
