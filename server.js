@@ -14,9 +14,9 @@ app.use(cors());
 
 function Location(query, formattedQuery, latitude, longtitude) {
   this.query = query,
-    this.formattedQuery = formattedQuery,
-    this.latitude = latitude,
-    this.longtitude = longtitude
+  this.formattedQuery = formattedQuery,
+  this.latitude = latitude,
+  this.longtitude = longtitude
 };
 
 
@@ -29,7 +29,11 @@ app.get('/location', (req, res) => {
   const formattedQuery = geoData.results[0].formatted_address;
   const lat = geoData.results[0].geometry.location.lat;
   const long = geoData.results[0].geometry.location.lng;
-  // res.send(`${query} ${formattedQuery} ${lat}  ${long}`);
+
+  const newLocation = new Location(query, formattedQuery, lat, long);
+
+
+  res.send(newLocation);
 
   res.send(` {
     'search_query': ${query},
