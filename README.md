@@ -2,7 +2,7 @@
 
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: MARTIN PAPA && SERGEY VOYTOV
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
@@ -29,7 +29,7 @@ Number and name of feature: 1. Repository Set Up
 
 Estimate of time needed to complete: 30 mins
 
-Start time: 08:46
+Start time: 0900
 
 Finish time: _____
 
