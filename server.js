@@ -30,17 +30,17 @@ app.get('/location', (req, res) => {
   const lat = geoData.results[0].geometry.location.lat;
   const long = geoData.results[0].geometry.location.lng;
 
-  const newLocation = new Location(query, formattedQuery, lat, long);
+  const newData = new Location(query, formattedQuery, lat, long);
 
 
-  res.send(newLocation);
+  res.send(newData);
 
-  res.send(` {
-    'search_query': ${query},
-    'formatted_query': ${formattedQuery},
-    'latitude': ${lat},
-    'longitude': ${long}
-  }`);
+  // res.send(` {
+  //   'search_query': ${query},
+  //   'formatted_query': ${formattedQuery},
+  //   'latitude': ${lat},
+  //   'longitude': ${long}
+  // }`);
 
 
 });
