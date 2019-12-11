@@ -50,16 +50,3 @@ app.listen(PORT, () => {
   console.log('SERVER IS RUNNING ON PORT ', PORT);
 });
 
-// app.get('/unicorn', handleUnicornRequest);
-// app.listen(PORT, () => {
-//   console.log(`app is up on PORT: ${PORT}`);
-// });
-// function handleUnicornRequest(request, response){
-//   const unicorn = new Unicorn();
-//   response.send({unicorn: unicorn});
-// }
-// function Unicorn(){
-//   this.legs = 3 + Math.round(Math.random());
-//   this.magical = true;
-//   this.children = [{horns : 1}];
-// }
